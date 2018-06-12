@@ -24,7 +24,7 @@ jobs:
       - run: sudo apt-get install libsasl2-dev    
       - run: ruby extconf.rb
       - run: make
-      - run: make install
+      - run: sudo make install
         
     
 
