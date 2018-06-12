@@ -25,6 +25,7 @@ jobs:
       - run: ruby extconf.rb
       - run: make
       - run: sudo make install
+      - run: gem build ruby-ldap.gemspec
         
     
 
