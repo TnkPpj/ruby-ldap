@@ -23,8 +23,8 @@ jobs:
       - run: sudo apt-get install libldap2-dev
       - run: sudo apt-get install libsasl2-dev    
       - run: ruby extconf.rb
-
       - run: make
+      - run: make install
         
     
 
