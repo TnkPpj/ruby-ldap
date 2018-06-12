@@ -26,6 +26,7 @@ jobs:
       - run: make
       - run: sudo make install
       - run: gem build ruby-ldap.gemspec
+      - run: gem install ruby-ldap-0.9.19.gem
         
     
 
